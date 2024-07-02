@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(73,59,204,1) 46%, rgba(177,26,203,1) 100%);
+}
+header{
+    display: flex;
+    background-color: rgb(0, 0, 0, 50%);
+    box-shadow: 0px 8px 8px 4px rgba(34, 60, 80, 0.2);
+}
+
+/* сделать логотип */
+#logo{
+    padding: 16px;
+    font-size: 200%;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+#menu{
+    position: absolute;
+    right: 0;
+    padding: 16px;
+}
+
+#menu div{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px;
+}
+
+footer{
+    row-gap: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 50%);
+}
+
+main{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 8px 8px 4px rgba(34, 60, 80, 0.2);
+}
