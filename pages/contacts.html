@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../styles/index.css">
         <link rel="shortcut icon" href="../images/icon.svg" type="image/svg">
-        <title>Главная || data.ru</title>
+        <title>Написать нам || data.ru</title>
     </head>
     <body>
         <header>
@@ -22,8 +22,8 @@
                 <span id="menu_content">
 
                     <a href="topics.html">Статьи</a>
-                    <a href="about_us.html">О нас</a>
-                    <a href="contacts.html">Написать нам</a>
+                    <a href="about_us.html" >О нас</a>
+                    <a href="contacts.html" style="color:  gold;">Написать нам</a>
 
                 </span>
 
@@ -33,22 +33,24 @@
             <div id="menu">
                 <a href="topics.html">Статьи</a>
                 <a href="about_us.html">О нас</a>
-                <a href="contacts.html">Написать нам</a>
+                <a href="contacts.html" style="color:  gold;">Написать нам</a>
             </span>
         </header>
-        <main>
-            <div>
-                <img src="../images/main.jpg" alt="Большие данные. Фото" title="Большие данные">
+        
+        <div id="form">
+            <div class="form">
+                <h1 style="color:white;">Связаться с нами</h1>
+                <form method="post" action="#">
+                    <input type="text" name="name" placeholder="Имя">
+                    <input type="text" name="surname" placeholder="Фамилия">
+                    <input type="text" name="father_name" placeholder="Отчество">
+                    <input type="email" name="email" placeholder="Электронная почта">
+                    <textarea name="message" placeholder="Ваше сообщение" rows="5"></textarea>
+                    <input type="button" value="Отправить!" id="button">
+                </form>
             </div>
-            <div>
-                <h1>Большие данные или Big Data</h1>
-                <p>Совремнное общество своми информационными запросами породила
-                    большое количество данных, с которыми программистам приходится работать.
-                </p>
-                <p>Большие данные или Big Data - это большой масссив данных разнообразного характера
-                </p>
-            </div>
-        </main>
+        </div>
+
         <footer>
             <span>data.ru</span>
             <span>&copy; Информационный сайт о данных</span>
